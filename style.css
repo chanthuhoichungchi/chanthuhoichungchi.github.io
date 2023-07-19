@@ -278,7 +278,7 @@ input4{
     z-index: 2;
     position: absolute;
     left: 23.5px;
-    top: 7px;
+    top: 5.5px;
     max-width: 50%;
 }
 
@@ -301,7 +301,7 @@ input6 {
 input6{
     position: relative;
     right: 188px;
-    top: 186.8px;
+    top: 187.5px;
 }
 
 .item-media2 .app-icon {
@@ -333,15 +333,15 @@ input7{
 input7 {
     position: relative;
     right: 39px;
-    top: 187px;
+    top: 187.5px;
 }
 
 .item-media3 .app-icon {
     width: 38px;
     z-index: 2;
     position: absolute;
-    left: 23.8px;
-    top: 4.5px;
+    left: 22.7px;
+    top: 5px;
     max-width: 38px;
     border-radius: 20%;
 }

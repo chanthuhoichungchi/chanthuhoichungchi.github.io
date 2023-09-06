@@ -118,7 +118,7 @@ b hr {
     gap: 0;
     border-radius: 5%;
     flex-direction: column;
-    background-color: transparent;
+    background-color: black;
     backdrop-filter: blur(80px);
     transition: 1.5s;
 }

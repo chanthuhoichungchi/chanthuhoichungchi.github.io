@@ -123,7 +123,7 @@ b hr {
     gap: 0;
     border-radius: 5%;
     flex-direction: column;
-    background-image: url(image/Anime Menu.jpg);
+    background-image: url(image/Anime\ Menu.jpg);
     background-size: 500px;
     transition: 1.5s;
 }

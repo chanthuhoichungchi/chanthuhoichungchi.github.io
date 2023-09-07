@@ -119,10 +119,8 @@ b hr {
     left: 608px;
     top: 48px;
     width: 160px;
-    height: 26%;
-    gap: 0;
+    height: 23%;
     border-radius: 5%;
-    flex-direction: column;
     background-image: url(image/Anime\ Menu.jpg);
     background-size: 500px;
     transition: 1.5s;

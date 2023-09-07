@@ -21,57 +21,62 @@ nav {
 
 /*trang chu*/
 ul li1 a {
-    color: white;
-    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 1000;
     list-style: none;
     position: relative;
-    left: 12.2px;
-    top: 67px;
+    left: 15.2px;
+    top: 66px;
 }
 
 /*Menu*/
 li2{
-    color: white;
-    font-weight: 70px;
-    font-size: 20px;
-    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: 22px;
     list-style: none;
     position: relative;
-    left: 31.5px;
-    top: -103px;
-}
-/*hadz*/
-li3{
-    color: white;
-    font-weight: 70px;
-    text-transform: uppercase;
-    list-style: none;
-    position: relative;
-    right: 24px;
-    top: 2.5px;
+    left: 31.7px;
+    top: -111px;
 }
 
 
-ul li a{
-    color: white;
-    text-transform: uppercase;
-    position: relative;
-    top: 39px;
-    left: 4px;
-}
-
+/*hr HoangAnh*/
 ul hr {
     position: relative;
     width: 197px;
-    top: -36px;
-    right: 40px;
+    top: -47px;
+    right: 38px;
     
 }
 
+/*hadz*/
+li3{
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: 20px;
+    list-style: none;
+    position: relative;
+    right: 25px;
+    top: -7px;
+}
+
+/*Keysms*/
+ul li a{
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: 18px;
+    position: relative;
+    top: 36px;
+    left: 1px;
+}
+
+/*hr Menu*/
 b hr {
     position: relative;
     width: 197px;
-    top: -128px;    
+    top: -140px;    
 }
 
 .hamburger {
@@ -112,14 +117,14 @@ b hr {
     z-index: 4;
     position: fixed;
     left: 608px;
-    top: 45px;
+    top: 48px;
     width: 160px;
-    height: 19%;
+    height: 28%;
     gap: 0;
     border-radius: 5%;
     flex-direction: column;
-    background-color: black;
-    backdrop-filter: blur(80px);
+    background-image: url(image/Anime\ Header.png);
+    background-size: 500px;
     transition: 1.5s;
 }
 

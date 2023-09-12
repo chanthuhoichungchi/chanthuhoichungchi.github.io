@@ -1,0 +1,149 @@
+/*header*/
+.text {
+    position: relative;
+    top: 12px;
+    left: 5px;
+    font-size: 23px;
+    font-weight: bolder;
+    background: linear-gradient(70deg,#ff0000,#42dde2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+    background-image: url(image/sasuke.jpg);
+    background-size: 405px;
+    position: relative;
+    top: -8px;
+    right: 9px;
+    width: 410px;
+}
+
+
+/*trang chu*/
+ul li1 a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 1000;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    left: 15.2px;
+    top: 66px;
+}
+
+/*Menu*/
+li2{
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: 22px;
+    list-style: none;
+    position: relative;
+    left: 31.7px;
+    top: -111px;
+}
+
+
+/*hr HoangAnh*/
+ul hr {
+    position: relative;
+    width: 197px;
+    top: -47px;
+    right: 38px;
+    
+}
+
+/*hadz*/
+li3{
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: 20px;
+    list-style: none;
+    position: relative;
+    right: 25px;
+    top: -7px;
+}
+
+/*Keysms*/
+ul li a{
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    top: 36px;
+    left: 1px;
+}
+
+/*hr Menu*/
+b hr {
+    position: relative;
+    width: 197px;
+    top: -140px;    
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    position: relative;
+    left: 180px;
+    top: -15px;
+    -webkit-transition: all 0.3 ease-in-out;
+    transition: all 0.3 ease-in-out;
+    background-color: white;
+}
+
+@media(max-width:768px) {
+    .hamburger {
+        display: block;
+}
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+}
+    .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+    .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+}
+/*menu*/
+.nav-menu {
+    z-index: 4;
+    position: fixed;
+    left: 608px;
+    top: 48px;
+    width: 160px;
+    height: 24.8%;
+    gap: 0;
+    border-radius: 5%;
+    flex-direction: column;
+    background-image: url(image/Anime\ Menu.jpg);
+    background-size: 500px;
+    transition: 1.5s;
+}
+
+.nav-item {
+    margin: 40px 0;
+    list-style: none;
+}
+
+.nav-menu.active {
+    left: 107px;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    background-size: 10px;
+}

@@ -12,7 +12,7 @@
 
 nav {
     background-image: url(image/sasuke.jpg);
-    background-size: 405px;
+    background-size: 410px;
     position: relative;
     top: -8px;
     right: 9px;
@@ -146,4 +146,37 @@ body {
 
 section {
     background-size: 10px;
+}
+
+body{
+    background-image: url(image/redb.jpg);
+    background-size: 410px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: -6px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(0, 255, 21);
+    font-size: 30px;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    position: relative;
+    top: -40px;
 }

@@ -162,21 +162,79 @@ h1 {
     text-align: center;
 }
 
+span3 {
+    position: relative;
+    right: 150px;
+    top: 45px;
+    display: block;
+    z-index: 2;
+    position: absolute;
+}
+
 h2 {
-    color: white;
+    color: rgb(0, 238, 255);
     text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+hr {
+    width: 104%;
+    position: relative;
+    right: 10px;
+    top: 10px;
 }
 
 h3 {
-    color: rgb(0, 255, 21);
-    font-size: 30px;
+    color: white;
+    font-size: 22px;
     text-align: center;
+    position: relative;
+    top: 15px;
 }
 
 h4 {
     color: white;
     text-align: center;
-    font-size: 23px;
+    font-size: 21px;
     position: relative;
-    top: -40px;
+    top: 8px;
 }
+
+#link{
+    display: block;
+    width: 222px;
+    padding: 12px 10px;
+    border: 1px solid #212121;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    position: relative;
+    left: 36px;
+    top: 8px;
+    overflow-x: scroll;
+}
+#link::-webkit-scrollbar{
+    display: none;
+}
+
+#copy-btn{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 20px;
+    position: relative;
+    top: -24px;
+    left: 286px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+h5 {
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+

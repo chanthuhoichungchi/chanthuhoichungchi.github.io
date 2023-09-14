@@ -144,10 +144,6 @@ body {
     background-color: black;
 }
 
-section {
-    background-size: 10px;
-}
-
 body{
     background-image: url(image/redb.jpg);
     background-size: 410px;
@@ -282,6 +278,6 @@ footer {
     color: rgb(255, 255, 255);
     position: absolute;
     left: 260px;
-    top: 536px;
+    top: 670px;
     font-size: 16px;
 }

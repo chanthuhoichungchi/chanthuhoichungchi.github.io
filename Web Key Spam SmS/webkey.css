@@ -50,7 +50,6 @@ ul hr {
     width: 197px;
     top: -47px;
     right: 38px;
-    
 }
 
 /*hadz*/
@@ -175,9 +174,9 @@ h2 {
 }
 
 hr {
-    width: 104%;
+    width: 103.2%;
     position: relative;
-    right: 10px;
+    right: 6px;
     top: 10px;
 }
 
@@ -278,6 +277,6 @@ footer {
     color: rgb(255, 255, 255);
     position: absolute;
     left: 260px;
-    top: 670px;
+    top: 665px;
     font-size: 16px;
 }

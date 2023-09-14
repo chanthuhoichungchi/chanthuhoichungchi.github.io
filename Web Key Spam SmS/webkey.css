@@ -221,9 +221,9 @@ h4 {
 #copy-btn{
     background-color: #000000;
     color: #ffffff;
-    padding: 12px 20px;
+    padding: 10.7px 20px;
     position: relative;
-    top: -24px;
+    top: -23.8px;
     left: 286px;
     border-radius: 5px;
     font-size: 18px;
@@ -236,4 +236,52 @@ h5 {
     text-align: center;
     position: relative;
     top: -20px;
+}
+
+input {
+    display: block;
+    position: absolute;
+    width: 86px;
+    height: 48px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    background: linear-gradient(45deg,#54a188, #aa1c1c,#000000);
+    border-radius: 12px;
+    position: relative;
+    left: 152px;
+    top: -30px;
+}
+
+i {
+    position: relative;
+    left: 178px;
+    top: -71px;
+}
+
+h10 {
+    color: rgb(4, 255, 16);
+}
+a {
+    text-decoration: none;
+}
+
+p {
+    position: relative;
+    left: -125px;
+    top: -12px;
+}
+
+p1 {
+    position: absolute;
+    left: -148px;
+    top: 28px;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 260px;
+    top: 500px;
+    font-size: 16px;
 }
